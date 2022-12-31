@@ -6,6 +6,7 @@ import {
   NavMenu
 } from './navelements';
 import image from '../images/favi-removebg-preview.png';
+import Home from '../home';
 const Navbar = () => {
 
   const [showNavbar, setShowNavbar] = useState(false)
@@ -18,6 +19,7 @@ const Navbar = () => {
       <Nav id="head">
           <img src={image} id="logo" width={75} height={75} alt=""/>
           <h1 class="recycle-logo"> RECYCLE </h1>
+         <Home />
         <div className="menu-icon" onClick={handleShowNavbar}>
         <Bars />
         </div>
