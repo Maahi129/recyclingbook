@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/recyclingbook/static/css/main.c1664ab2.css",
+    "main.js": "/recyclingbook/static/js/main.b42fc95b.js",
+    "static/media/mailus.png": "/recyclingbook/static/media/mailus.5c6dd28a0ea285341fcf.png",
+    "static/media/favi-removebg-preview.png": "/recyclingbook/static/media/favi-removebg-preview.9ef306ac6cecbcb86551.png",
+    "static/media/image_books-removebg-preview.png": "/recyclingbook/static/media/image_books-removebg-preview.11add3b004f9b99b0a28.png",
+    "static/media/abook.png": "/recyclingbook/static/media/abook.3bc620ab901bb6f9cdda.png",
+    "static/media/call.png": "/recyclingbook/static/media/call.a0e9eb458c68b12a47da.png",
+    "static/media/newspaper-removebg-preview.png": "/recyclingbook/static/media/newspaper-removebg-preview.1fd91df277b6a9236fff.png",
+    "static/media/img.jpg": "/recyclingbook/static/media/img.a2f12b7595ecfbf6b079.jpg",
+    "static/media/pic1.jpg": "/recyclingbook/static/media/pic1.df2231a379199bc87c12.jpg",
+    "static/media/pic2.jpg": "/recyclingbook/static/media/pic2.8e6766d6b55e78ed0ba8.jpg",
+    "static/media/tree_save.jpg": "/recyclingbook/static/media/tree_save.fe689aba0dead633d63a.jpg",
+    "index.html": "/recyclingbook/index.html",
+    "main.c1664ab2.css.map": "/recyclingbook/static/css/main.c1664ab2.css.map",
+    "main.b42fc95b.js.map": "/recyclingbook/static/js/main.b42fc95b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1664ab2.css",
+    "static/js/main.b42fc95b.js"
+  ]
+}
