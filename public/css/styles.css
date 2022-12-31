@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+html,body {
+  font-family: "Montserrat", sans-serif;
+  background-image: -webkit-linear-gradient(100deg, #59C1BD 50%, #E4E9FD 50%);
+  min-height: 1200px;
+  min-width: 753;
+  position: relative;
+  margin: 0;
+  margin-right: 0;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+
+
+#head {
+  background-color: #59C1BD; /* 97DECE    CFF5E7   59C1BD   B3FFAE*/
+  margin: auto -12px;
+  padding: 16px 32px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+  height: 75px;
+}
+
+#head h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  position: relative;
+  left:80px;
+}
+
+#routes{
+  padding: 34px;
+  color: #fff;
+}
+
+#routes:hover{
+  color:black;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+#rcorners1 {
+  border-radius: 45px;
+  /*background: #EEF1FF; */
+  background-image: linear-gradient(45deg, #fff, #66ffcc);
+  padding: 20px;
+  width: 295px;
+  height: 380px;
+  position: absolute;
+  right: 100px;
+  top: 170px;
+  z-index: 0;
+}
+
+.title {
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 20px;
+  font-family: monospace;
+  font-size: 2.4rem;
+}
+
+
+.para{
+  padding: 2px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+}
+
+.head-img{
+   position: absolute;
+   right: 270px;
+   top: 230px;
+   height: 420px;
+}
+
+.quote{
+   font-family: italic;
+   font-weight: 600;
+   color: #00ABB3; /* 00ccff  00ABB3  */
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 4px;
+}
+
+
+
+.button {
+  display: inline-block;
+  background-color: #00ABB3;
+  padding: 10px;
+  margin: 90px 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px black;
+  border-radius: 15px;
+  font-size: 23px;
+}
+
+.button:hover{
+  color: #00ABB3;
+  background-color: #F9F9F9;
+}
+
+
+
+.slides{
+  height: 450px;
+  width: 690px;
+  justify-content: center;
+  display: block;
+  /*margin-left: auto;*/
+  margin-right: auto;
+  position: absolute;
+  top: 710px;
+  left: 80px;
+}
+
+.title1{
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 2.4rem;
+  position: relative;
+  left: 746px;
+  bottom: 508px;
+}
+
+.para1{
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    position: relative;
+    left: 746px;
+    bottom: 504px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    top: 550px;
+  }
+
+  footer p {
+    color: #ccc;
+  }
+
+
+  .card{
+      border-radius: 45px;
+      width: 295px;
+      height: 380px;
+      background: #F9F9F9;
+      padding: 20px;
+      margin-top: 100px;
+      margin-left: 80px;
+      margin-right: 80px;
+      display: inline-flex;
+      position: relative;
+  }
+
+  .abook{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head2{
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    position: absolute;
+    top: 153px;
+  }
+
+  .head3{
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    position: absolute;
+    top: 200px;
+  }
+
+  .heading2{
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    position: absolute;
+    top: 200px;
+  }
+
+  .chart{
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    left: 350px;
+    top: 90px;
+  }
+
+
+  .field {
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.icons1{
+  height: 41px;
+  width: 41px;
+  padding: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.str{
+  position: absolute;
+  left: 110px;
+  top: 450px;
+}
+
+.str1{
+  position: absolute;
+  left: 110px;
+}
+
+.icons2{
+  height: 54px;
+  width: 54px;
+  padding: 10px;
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+
+   .para1{
+     visibility: hidden;
+   }
+   .title1{
+     visibility: hidden;
+   }
+
+}
+@media (max-width: 600px) {
+
+  html{
+    height: 2500px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #59C1BD;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+  #navbar {
+     display: flex;
+     flex-direction: column;
+   }
+   #routes{
+     margin-right: unset;
+    margin-top: 22px;
+    color: #100720;
+    z-index: 5;
+   }
+   #routes:hover{
+     color: grey;
+   }
+
+   .head-img{
+     position: absolute;
+     top: 1000px;
+
+   }
+   #rcorners1{
+     position: absolute;
+     top: 900px;
+   }
+   .img{
+     width: 440px;
+     height: 300px;
+     position: relative;
+     left: 50px;
+
+   }
+   .slides{
+     position: relative;
+     width: auto;
+     left: 10px;
+   }
+
+   .title1{
+     position: relative;
+     left: 10px;
+     top: 40px;
+   }
+   .para1{
+     position: relative;
+     left: 10px;
+     top: 50px;
+   }
+
+   .chart{
+     width: 500px;
+     position: relative;
+     height: 400px;
+     left: 20px;
+     min-height: 600px;
+   }
+
+   footer{
+     position: relative;
+     top: 1250px;
+     color: black;
+   }
+ }
+
+ @media (max-width: 768px) {
+   .menu-icon {
+     display: block;
+     cursor: pointer;
+   }
+
+   .nav-elements {
+     position: absolute;
+     right: 0;
+     top: 60px;
+     background-color: #59C1BD;
+     width: 0px;
+     height: calc(100vh - 60px);
+     transition: all 0.3s ease-in;
+     overflow: hidden;
+   }
+
+   .nav-elements.active {
+     width: 270px;
+   }
+   #navbar {
+      display: flex;
+      flex-direction: column;
+    }
+    #routes{
+      margin-right: unset;
+     margin-top: 22px;
+    }
+  }
+
+
+
+
+  @media (max-width: 496px){
+    .button{
+      width: 102px;
+      font-size: 1.1rem;
+    }
+    .head-img{
+      visibility: hidden;
+    }
+    #rcorners1{
+      visibility: hidden;
+    }
+    body{
+      height: 600px
+    }
+
+    .img{
+      width: 270px;
+      height: 230px;
+      position: relative;
+    }
+    .slides{
+      position: relative;
+      top: 100px;
+    }
+    html,body{
+      min-height: 840px;
+      min-width: 230px;
+    }
+
+    .title1{
+      font-size: 1.4rem;
+      font-weight: 600;
+      width: 280px;
+    }
+    .para1{
+      font-size: 1rem;
+      width: 300px;
+    }
+    footer{
+
+    }
+
+    .card{
+      width: 170px;
+      height: 250px;
+      position: relative;
+      right: 40px;
+    }
+    .head2{
+      font-size: 1rem;
+      position: absolute;
+      top: 70px;
+    }
+    .head3{
+      font-size: 1rem;
+      position: absolute;
+      top: 95px;
+    }
+    .heading2{
+      font-size: 1rem;
+      position: absolute;
+      top: 150px;
+    }
+    .abook{
+      width: 100px;
+      height: 100px;
+    }
+
+    .nav-elements{
+      position: absolute;
+    }
+    .navbar{
+      position: relative;
+      right: 20px;
+    }
+
+    #logo{
+      width: 50px;
+      height: 50px;
+    }
+    .recycle-logo{
+      font-size: 1.2rem;
+    }
+
+    .chart{
+      width: 330px;
+      height: 500px;
+    }
+
+    .str{
+      font-size: 1rem;
+    }
+    .str1{
+      font-size: .85rem;
+    }
+    .icons1{
+      width: 40px;
+      height: 40px;
+    }
+  }
